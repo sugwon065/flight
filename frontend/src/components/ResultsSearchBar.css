@@ -1,0 +1,75 @@
+.rs-bar {
+  background: #0a1a2e;
+  padding: 16px 0;
+}
+
+.rs-bar-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rs-back {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  font-size: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.rs-back:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.rs-route-box {
+  flex: 1;
+  min-width: 0;
+}
+
+.rs-route {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rs-dates {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.rs-date-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  padding: 8px 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.rs-date-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 900px) {
+  .rs-dates {
+    display: none;
+  }
+}

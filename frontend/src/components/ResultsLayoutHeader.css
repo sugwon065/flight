@@ -1,0 +1,82 @@
+.rl-header {
+  background: #0d2137;
+}
+
+.rl-header-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.rl-header-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.rl-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.rl-tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.rl-tab {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: default;
+  pointer-events: none;
+}
+
+.rl-tab.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.rl-header-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rl-action {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: default;
+  pointer-events: none;
+}
+
+.rl-icon {
+  font-size: 18px;
+}
+
+.rl-login {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  cursor: default;
+  pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+  .rl-header-actions .rl-action:not(.rl-icon) {
+    display: none;
+  }
+}

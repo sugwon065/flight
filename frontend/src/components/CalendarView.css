@@ -1,0 +1,17 @@
+@import './CalendarPopup.css';
+
+.calendar-view {
+  background: #fff;
+}
+
+.calendar-view--readonly .cal-day.readonly {
+  cursor: default;
+}
+
+.calendar-view--readonly .cal-day.readonly:hover {
+  background: none;
+}
+
+.calendar-view--readonly .cal-day.readonly:disabled {
+  opacity: 1;
+}
